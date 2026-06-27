@@ -30,6 +30,7 @@ public class FourthAppiumTest {
                 "appium:app",
                 "D:/software/proyecto2/src/test/java/app/Android.SauceLabs.Mobile.Sample.app.2.7.0.apk"
         );
+        //        capabilities.setCapability("appium:app", "/home/esan/IdeaProjects/AutomationMobileTesting/src/test/java/app/Android.SauceLabs.Mobile.Sample.app.2.7.0.apk");
         capabilities.setCapability("appium:noReset", true); //true evita reinstalar
         capabilities.setCapability("appium:appPackage", "com.swaglabsmobileapp");
         capabilities.setCapability("appium:appActivity", "com.swaglabsmobileapp.MainActivity");
